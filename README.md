@@ -3,4 +3,4 @@
 Believe in yourself and start doing programming problems!
 
 ## Table of Contents
-- [Sphere Online Judge (SPOJ)](SPOJ)
+- [Sphere Online Judge (SPOJ)](spoj)
