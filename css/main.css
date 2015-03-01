@@ -342,7 +342,7 @@ html {
 #topper {
   position: relative;
   height: 100vh !important;
-  background-image: url("/img/nebula.jpg");
+  background-image: url("img/nebula.jpg");
   background-color: #111;
   background-position: 50% 0;
   -webkit-background-size: cover;
