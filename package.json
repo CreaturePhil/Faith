@@ -1,21 +1,17 @@
 {
-  "name": "faith",
+  "name": "Faith",
   "version": "0.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "description": "Believe in yourself and start doing programming problems!",
   "repository": {
     "type": "git",
-    "url": "https://github.com/CreaturePhil/faith.git"
+    "url": "https://github.com/CreaturePhil/Faith.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Philip La",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/CreaturePhil/faith/issues"
+    "url": "https://github.com/CreaturePhil/Faith/issues"
   },
-  "homepage": "https://github.com/CreaturePhil/faith",
+  "homepage": "https://github.com/CreaturePhil/Faith",
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-contrib-watch": "^0.6.1",
