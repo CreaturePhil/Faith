@@ -1,4 +1,4 @@
-# [Faith](http://creaturephil.github.io/faith)
+# [Faith](http://creaturephil.github.io/Faith/)
 
 Believe in yourself and start doing programming problems!
 
