@@ -320,9 +320,29 @@ table {
 td, th {
   padding: 0; }
 
+html {
+  font-size: 100%; }
+  @media (min-width: 40rem) {
+    html {
+      font-size: 112%; } }
+  @media (min-width: 64rem) {
+    html {
+      font-size: 120%; } }
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.container {
+  margin: 0 auto;
+  max-width: 48rem;
+  width: 90%; }
+
 #topper {
   position: relative;
   height: 100vh !important;
+  background-image: url("/img/nebula.jpg");
   background-color: #111;
   background-position: 50% 0;
   -webkit-background-size: cover;
@@ -350,5 +370,49 @@ td, th {
     -moz-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center; }
-    #topper .wrap h1, #topper .wrap p {
-      color: white; }
+    #topper .wrap h1 {
+      color: #fff;
+      font-family: "Montserrat", sans-serif;
+      font-size: 4rem;
+      font-weight: bold; }
+    #topper .wrap p {
+      color: #fff;
+      font-family: "Montserrat", sans-serif;
+      font-size: 1rem; }
+
+section {
+  padding: 1em;
+  font-family: "Droid Serif", serif;
+  text-align: center; }
+  section a {
+    text-decoration: none;
+    color: inherit; }
+    section a:hover {
+      text-decoration: underline;
+      color: #aaa; }
+  section ul {
+    margin: 0;
+    padding: 0; }
+    section ul li {
+      list-style: none;
+      padding: 1em; }
+
+.about {
+  background-color: #0074d9;
+  color: #ddd; }
+
+.spoj {
+  background-color: #001f3f;
+  color: #fff; }
+
+footer {
+  padding: 2em;
+  background-color: #ddd;
+  color: #111;
+  text-align: center;
+  text-transform: uppercase; }
+  footer a {
+    text-decoration: none;
+    color: #111; }
+    footer a:hover {
+      color: #aaa; }

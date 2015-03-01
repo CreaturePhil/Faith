@@ -1,8 +1,10 @@
-@import 'normalize'
+@import "normalize"
+@import "grid"
 
 #topper
   position: relative
   height: 100vh !important
+  background-image: url("/img/nebula.jpg")
   background-color: #111
   background-position: 50% 0
   -webkit-background-size: cover
@@ -33,5 +35,56 @@
     transform: translate(-50%, -50%)
     text-align: center
 
-    h1, p
-      color: white
+    h1
+      color: #fff
+      font-family: "Montserrat", sans-serif
+      font-size: 4rem
+      font-weight: bold
+
+    p
+      color: #fff
+      font-family: "Montserrat", sans-serif
+      font-size: 1rem
+
+section
+  padding: 1em
+  font-family: "Droid Serif", serif 
+  text-align: center
+
+  a
+    text-decoration: none
+    color: inherit
+
+    &:hover
+      text-decoration: underline
+      color: #aaa
+
+  ul
+    margin: 0
+    padding: 0
+
+    li
+      list-style: none
+      padding: 1em
+
+.about
+  background-color: #0074d9
+  color: #ddd
+
+.spoj
+  background-color: #001f3f
+  color: #fff
+
+footer
+  padding: 2em
+  background-color: #ddd
+  color: #111
+  text-align: center
+  text-transform: uppercase
+
+  a
+    text-decoration: none
+    color: #111
+
+    &:hover
+      color: #aaa
