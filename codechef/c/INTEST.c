@@ -2,7 +2,6 @@
  * Enormous Input Test
  *
  * Problem code: INTEST
- * 
  *
  * The purpose of this problem is to verify whether the method you are using 
  * to read input data is sufficiently fast to handle problems branded with the 
