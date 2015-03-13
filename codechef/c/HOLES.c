@@ -21,9 +21,14 @@
  * For each test case, output a single line containing the number of holes in
  * the corresponding text.  Example
  * 
- * Input: 2 CODECHEF DRINKEATCODE
+ * Input: 
+ * 2
+ * CODECHEF
+ * DRINKEATCODE
  * 
- * Output: 2 5
+ * Output: 
+ * 2 
+ * 5
  */
 
 #include <stdio.h>

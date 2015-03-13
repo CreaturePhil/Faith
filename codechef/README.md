@@ -16,3 +16,6 @@ events for programmers around the world.
 
 * [Holes in the text](http://www.codechef.com/problems/HOLES)
 ([C](c/HOLES.c))
+
+* [Small factorials](http://www.codechef.com/problems/FCTRL2)
+([C](c/FCTRL2.c))
