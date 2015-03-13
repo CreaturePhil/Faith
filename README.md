@@ -3,8 +3,9 @@
 Believe in yourself and start doing programming problems!
 
 ## Table of Contents
-- [Sphere Online Judge (SPOJ)](spoj)
+
 - [CodeChef](codechef)
+- [Sphere Online Judge (SPOJ)](spoj)
 
 ## License
 
