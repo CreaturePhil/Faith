@@ -19,3 +19,6 @@ events for programmers around the world.
 
 * [Small factorials](http://www.codechef.com/problems/FCTRL2)
 ([C](c/FCTRL2.c))
+
+* [Turbo Sort](http://www.codechef.com/problems/TSORT/)
+([C](c/TSORT.c))
