@@ -23,15 +23,26 @@ fn main() {
         .ok()
         .expect("Failed to read line");
 
+    println!("{}", adder(input));
+}
+
+fn adder(input: String) -> i32 {
     let nums: Vec<&str> = input.trim().split(' ').collect();
     let a: i32 = match nums[0].parse() {
         Ok(num) => num,
-        Err(_) => return,
+        Err(_) => 0,
     };
     let b: i32 = match nums[1].parse() {
         Ok(num) => num,
-        Err(_) => return,
+        Err(_) => 0,
     };
 
-    println!("{}", a + b);
+    a + b
+}
+
+#[test]
+fn it_works() {
+    assert_eq!(adder("1 1".to_string()), 2);
+    assert_eq!(adder("1 5".to_string()), 6);
+    assert_eq!(adder("349 1273".to_string()), 1622);
 }
